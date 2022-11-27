@@ -4,5 +4,9 @@
   "bootstrap_expect":3,
   "data_dir": "/tmp",
   "retry_join": ["172.22.0.3","172.22.0.4"],
-  "encrypt": "IQeM6oXuWhTlmPOCCMQmFQtdlkxCzh/w38yTFvdlmHg="
+  "encrypt": "IQeM6oXuWhTlmPOCCMQmFQtdlkxCzh/w38yTFvdlmHg=",
+  "client_addr": "0.0.0.0",
+  "ui_config": {
+    "enabled": true
+  }
 }

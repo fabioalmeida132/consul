@@ -11,6 +11,8 @@ services:
     networks:
       consul:
         ipv4_address: 172.22.0.2
+    ports:
+      - "8500:8500"
   consulserver02:
     image: consul:1.10
     container_name: consulserver02
